@@ -1,0 +1,140 @@
+/*CSS externo*/
+
+:root{
+    --primary: #002569;
+    --dark: #000000;
+    --gray: #363636;
+    --gray-light: #8B8B8B;
+}
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    margin: 0;
+    background-color: var(--primary);
+    display: flex;
+    justify-content: center;
+}
+
+div{
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+}
+
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+}
+
+h1{
+    color: var(--dark);
+    font-size: 32px;
+    margin-bottom: 1px;
+    max-width: 339px;
+}
+
+h2{
+    color: var(--gray);
+    font-size: 14px;
+    margin-bottom: 27px;
+    font-weight: 300;
+    max-width: 290px;
+}
+
+.text-login{
+    color: var(--gray);
+    font-size: 12px;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 7px;
+    max-width: 34px;
+}
+
+.password{
+    color: var(--gray);
+    font-size: 12px;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 7px;
+    max-width: 40px;
+}
+
+.container{
+    width: 1000px;
+    right: 600px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    align-items: center;
+/*     margin-right: 50px; /*espaço entre colunas*/
+}
+
+.image{
+    width: 400px;
+    right: 326.14px;
+    margin-top: 137px;
+    margin-bottom: 136.86px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.login img{
+    width: 200px;
+    height: 50px;
+    margin-bottom: 35px;
+}
+
+.login{
+    margin-top: 99px;
+    margin-bottom: 99px;
+    margin-left: 50px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    color: var(--gray-light);
+    font-size: 12px;
+    width: 400px;
+    height: 35px;
+    margin-bottom: 15px;
+}
+
+.senha{
+    margin-bottom: 7px;
+}
+
+.link-password{
+    margin-left: 270px;
+    margin-bottom: 24px;
+    max-width: 130px;
+    color: var(--primary);
+}
+
+a{
+    font-size: 12px;
+}
+
+.btn{
+    background-color: var(--primary);
+    color: white;
+    font-size: 12px;
+    width: 400px;
+    height: 36px;
+    padding: 0;
+    border: solid 2px transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.7s;
+}
+
+.btn:hover{
+    transform: scale(1.0);
+    background-color: #002569de;
+}
