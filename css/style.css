@@ -101,6 +101,7 @@ input{
     width: 400px;
     height: 35px;
     margin-bottom: 15px;
+    box-sizing: border-box;
 }
 
 .senha{
@@ -122,6 +123,7 @@ a{
     background-color: var(--primary);
     color: white;
     font-size: 12px;
+    font-weight: 700;
     width: 400px;
     height: 36px;
     padding: 0;
